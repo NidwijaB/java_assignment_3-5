@@ -1,6 +1,10 @@
-# Java Assignment 3
+# Java Assignment 3 and Assignment 5
 
-This is a Maven-based Java project using **SQLite**, **Selenium**, and **Apache Commons CSV** to manage and analyze employee salary data.
+Assignment Task 3: JDBC + POJO
+	This is a Maven-based Java project using **SQLite**, **Selenium**, and **Apache Commons CSV** to manage and analyze employee salary data.
+Assignment Task 5: Critical Thinking
+	Write your thoughts over the role and future of QA in AI dominant tech market. 
+	located:: java_assignments_remaining/assignment5_critical_thinking
 
 ---
 
@@ -10,6 +14,19 @@ This is a Maven-based Java project using **SQLite**, **Selenium**, and **Apache 
 - Inserts random employee records
 - Performs salary-based operations and exports results to CSV
 - Uses POJO for structured data handling
+- Assignment 3 info::
+	- Create SQLite Database and Table:
+	- Connect to SQLite database.
+	- Create Salary table with columns: employee_name, join_date, salary.
+	- Insert Random Data:
+	- Insert 100 random records into the Salary table.
+	- POJO Class:
+		-Create a Salary POJO class with fields: employeeName, joinDate, salary.
+	- Operations:
+		Print employee with the highest salary.
+		Export employees with salary greater than 10000 to CSV.
+		Export employees who joined in the last month to CSV.
+		Print employees in ascending order by name.
 
 ---
 
@@ -19,7 +36,7 @@ Make sure the following tools are installed:
 
 - **Java 17**
 - **Maven 3.6.3 or newer**
-- **Any IDE** (IntelliJ IDEA recommended)
+- **IntelliJ IDEA IDE** 
 
 ---
 
@@ -81,8 +98,3 @@ Java_Assignment3/
 - **high_earners.csv**: List of employees with salary > 10000
 - **recent_joinees.csv**: Employees who joined in the last month
 
----
-
-## License
-
-This project is for educational purposes.
